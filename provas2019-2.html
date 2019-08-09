@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+     <head>
+	<title>Provas</title>
+        <meta charset ="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <!-- Funções -->
+        <!--Trabalho de Conclusão de Curso I-->
+        <script>
+            function TrabalhoDeConclusaoDeCursoI(){
+                alert(
+                    "A definir"
+                      );
+                }
+        </script>
+        
+        <!--Teste de Software-->
+         <script>
+            function TesteSoftware(){
+                alert(
+                    "A definir"
+                      );
+                }
+        </script>
+        
+        <!--Programação Web II-->
+        <script>
+            function ProgramacaoWebII(){
+                alert(
+                    "A definir"
+                      );
+                }
+        </script>
+        
+        <!--Desenvolvimento De Jogos-->
+        <script>
+            function DesenvolvimentoDeJogos(){
+                alert(
+                    "A definir"
+                      );
+                }
+        </script>
+        
+        <!--Tópicos Em Engenharia De Software-->
+        <script>
+            function TopicosemEngenhariadeSoftware(){
+                alert(
+                    "A definir"
+                      );
+                }
+        </script>
+        
+        <!--Estrutura de Dados-->
+        <script>
+            function EstrturadeDados(){
+                alert(
+                    "A definir"
+                      );
+                }
+        </script>
+        
+        <!--Teoria da Computação-->
+        <script>
+            function TeoriaComp(){
+                    alert(
+                        "Avaliação 1: dia  p1 peso 4\n\
+                        Apresentação trabalho:  trabalho peso 2\n\
+                        Avaliação 2: dia  p2 peso 4\n\
+                        Substitutiva: dia  psub substitui a menor nota"
+                    );
+                }
+        </script>
+     <!--Função mouse over-->
+        <script>
+        $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+        });
+    </script>
+    	<!--Fim das funções-->
+        <div class="container">
+            <ul class="pager">
+            <li><a href="aulas-2019-2.html">Horários</a></li>
+            </ul>
+        </div>
+    
+        <h1 class="text-center"> Provas Segundo Semestre 2019 #EUACREDITO</h1>
+          
+        <!--Tabela-->
+            <table style="width:100%">
+             <div class="container">
+              <table class="table table-striped table table-bordered table-hover">
+               <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Disciplina</th>
+                    <th>Turma</th>
+                    <th>CHS</th> 
+                </tr>
+               </thead>
+                <tr>
+                    <td>IF66J</td>
+                    <td><button type="button" class="btn btn-info" onclick="TesteSoftware()">Teste de Software</button></td>
+                    <td>ES51</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>IF67I</td>
+                    <td><button type="button" class="btn btn-success" onclick="ProgramacaoWebII()">Programação Web 2</button></td>
+                    <td>ES71</td>
+                    <td>5</td>
+                </tr>
+               <tr>
+                    <td>IF67L</td>
+                    <td><button type="button" class="btn btn-dark" onclick="TrabalhoDeConclusaoDeCursoI()">Trabalho de Conclusão de Curso I</button></td>
+                    <td>ES71</td>
+                    <td>2</td>
+               </tr>
+               <tr>
+                    <td>IF68X</td>
+                    <td><button type="button" class="btn btn-info" onclick="DesenvolvimentoDeJogos()">Desenvolvimento De Jogos</button></td>
+                    <td>C91</td>
+                    <td>4</td>
+               </tr>
+               <tr>
+                    <td>IF69N</td>
+                    <td><button type="button" class="btn btn-primary" onclick="TopicosemEngenhariadeSoftware()">Tópicos Em Engenharia De Software</button></td>
+                    <td>C91</td>
+                    <td>4</td>
+                </tr>
+               <tr>
+                    <td>SO33A</td>
+                    <td><button type="button" class="btn btn-info" onclick="EstrturadeDados()">Estrutura de Dados</button></td>
+                    <td>SPO1</td>
+                    <td>5</td>
+               </tr>
+               <tr>
+                    <td>SO36C</td>
+                    <td><button type="button" class="btn btn-warning" onclick="TeoriaComp()">Teoria Da Computação</button></td>
+                    <td>SPO1</td>
+                    <td>5</td>
+               </tr>
+            </table>
+        </br>
+        <table style="width:100%">
+        <div class="container">
+            <table class="table table-striped table-bordered table-condensed table-hover">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Disciplina</th>
+                        <th>Turma</th>
+                        <th>Nota</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                <div class="container">
+                    <tr>
+                        <td><s>19/03</s></td>
+                        <td><s><a href="#" title="Detalhes" data-toggle="popover" data-trigger="hover" data-html="true" data-content="Escolher qual o tema do projeto">Tema projeto</a></s></td>
+                        <td><s>Programação Distribuída</s></td>
+                        <td><s>6,9</s></td>
+                    </tr>
+                    </div>
+                   </tbody>
+                </div>
+            </table>
+        <div class="container">
+        <ul class="pager">
+            <li><a href="aulas-2019-1.html">Horários</a></li>
+        </ul>
+        </div>
+    </body>
+</html>
